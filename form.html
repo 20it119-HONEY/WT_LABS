@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>INQUIRY FORM</title>
+    </head>
+    <body>
+       
+        <form method="GET">
+           <table border="1">
+               <tr>
+                   <td><b>Full Name:</b></td>
+                   <td><input type="text" name="fname" placeholder="first name">
+                       <input type="text" name="Mname" placeholder="middle name">
+                       <input type="text" name="lname" placeholder="last name">
+                    </td>
+               </tr>
+               <tr>
+                   <td><b>Current Address:</b></td>
+                   <td colspan="2"><input type="text" name="address line 1" placeholder="Address line 1"><br>
+                      <input type="text" name="address line 2" placeholder="Address line 2"><br>
+                      <input type="text" name="city" placeholder="city"><input type="text" name="State" placeholder="State"><br>
+                      <input type="number" name="postal code" placeholder="postal code">
+                      <select name="country">
+                        <option>Select country</option>
+                          <option>India</option>
+                          <option>USA</option>
+                          <option>UK</option>
+                          <option>SriLanka</option>
+                          <option>Bangladesh</option>
+                          <option>Nepal</option>
+                          <option>Canada</option>
+                          <option>Africa</option>
+                          <option>Russia</option>
+                          <option>Australia</option>
+                      </select>
+                    </td>
+               </tr>
+               <tr>
+                   <td><b>E-mail Address:</b></td>
+                   <td><input type="email" placeholder="ex:myname@xyz.com"></td>
+               </tr>
+               <tr>
+                   <td><b>Phone Number:</b></td>
+                   <td><input type="number" name="area code" placeholder="area code"> - <input type="number" name="phone number" placeholder="phone number"></td>
+                
+               </tr>
+               <tr>
+                   <td><b>Inquire for which institute:</b></td>
+                   <td>
+                       <select name="apply">
+                           <option>select here</option>
+                           <option> P D PATEL INSTITUTE OF APPLIED SCIENCE(PDPIAS)</option>
+                           <option>CHANDUBHAI PATEL INSTITUTE OF TECHNOLOGY(CSPIT)</option>
+                           <option>DEVANG PATEL INSTITUTE OF TECHNOLOGY(DEPSTAR)</option>
+                           <option>RAMANBHAI PATEL COLLEGE OF PHARMACY(RPCP)</option>
+                           <option>INDUKAKA IPCOWALA INSTITUTE OF MANAGEMENT(I2IM)</option>
+                           <option>MANIKAKA TOPAWALA INSTITUTE OF NURSING(MTIN)</option>
+                           <option>ASHOK & RITA PATEL INSTITUTE OF PHYSIOTHERAPY(ARIP)</option>
+                       </select>
+                   </td>
+               </tr>
+               <tr>
+                   <td><b>Date of birth:</b></td>
+                   <td><input type="date" name="date" placeholder="date"></td>
+               </tr>
+               <tr>
+                   <td><b>Upload ACPC merit certificate:</b></td>
+                   <td><input type="file" name="choose file" placeholder="choose file"></td>
+               </tr>
+               <tr>
+                   <td>
+                       <input type="submit">
+                   </td>
+               </tr>
+           </table>
+        </form>
+    </body>
+</html>
