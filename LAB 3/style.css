@@ -1,0 +1,140 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* CSS Variables */
+:root{
+    --navbar-height: 59px;
+}
+/* Navigation Bar */
+#navbar{
+    display: flex;
+    align-items: center;
+}
+
+/* Navigation Bar: List Styling */
+#navbar{
+    position: relative;
+}
+#navbar ul{
+    display: flex;
+    font-family: 'Pacifico', cursive;
+}
+
+#navbar::before{
+    content: "";
+    background-color: rgb(0, 0, 0)8, 26, 26;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+#navbar ul li{
+    list-style: none;
+    font-size: 1.2rem;
+}
+
+
+#navbar ul li a{
+    color:#ffffff;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+
+/* Home Section */
+#home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 2px 200px;
+    height: 420px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#home::before{
+    content: "";
+    background: url('melissa-walker-horn-vACInYhNjY0-unsplash.jpg') no-repeat center center/cover;
+    filter: blur(8px);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.90;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-size: 2.4rem;
+    font-family: 'Pacifico', cursive;
+}
+/* Services Section */
+#services{
+        margin: 34px;
+        display: flex;
+}
+#services .box{
+    height: 400px;
+    border: 2px solid #4c2828;
+    border-radius: 15px;
+    margin: 5px;
+    background-color: #343c4d15;
+    color: #ffffff;
+}
+#services .box img{
+    height: 400px;
+    width: 385px;
+    margin: auto;
+    display: block;
+    border-radius: 10px;
+    filter: blur(8px);
+}
+
+#services .box p{
+    font-family: 'Pacifico', cursive;
+}
+
+
+/* Visibillity Classes */
+
+.h-primary{
+    font-size: 2.6rem;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+.h-secondary{
+    font-size: 2.6rem;
+    padding: 12px;
+    text-align: center;
+    font-family: 'Pacifico', cursive;
+}
+
+button.btn{
+    padding: 6px 20px;
+    border: 2px solid white;
+    background-color: #4c2828;
+    color: white;
+    margin: 15px;
+    font-size: 1.5rem;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.center{
+    text-align: center;
+    padding: 10px;
+}
