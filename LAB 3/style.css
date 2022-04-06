@@ -13,6 +13,7 @@
     align-items: center;
 }
 
+
 /* Navigation Bar: List Styling */
 #navbar{
     position: relative;
@@ -24,7 +25,7 @@
 
 #navbar::before{
     content: "";
-    background-color: rgb(0, 0, 0)8, 26, 26;
+    background-color: rgb(0, 0, 0);
     position: absolute;
     height: 30%;
     width: 100%;
@@ -40,7 +41,7 @@
 
 
 #navbar ul li a{
-    color:#ffffff;
+    color:#000000;
     display: block;
     padding: 3px 22px;
     border-radius: 20px;
