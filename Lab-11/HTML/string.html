@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div id="string"></div>
+    <div id="string1"></div>
+    <div id="string2"></div>
+    <div id="string3"></div>
+    <div id="string4"></div>
+    <div id="string5"></div>
+
+    <script>
+        let str1 = "Hello";
+        let str2 = "How are you";
+        let str3 = "My name is HONEY";
+
+
+        document.getElementById('string').innerHTML = str1 + "<br>" + str2 + "<br>" + str3;
+
+        document.getElementById('string1').innerHTML = str1.length;
+        let x = "20IT119 HONEY";
+        let y = new String("20IT119 HONEY");
+
+        document.getElementById('string2').innerHTML = typeof x + "  " + typeof y + "<br>" + (x == y) + "<br>" + (x === y);
+    </script>
+</body>
+
+</html>
